@@ -14,10 +14,9 @@ The toolkit essentially covers the following steps
 
 ### 5) Principal Component Analysis and vizualization of selected populations
 
-### 6) STRUCTURE analysis and vizualization of investigated datasets
+### 6) ADMIXTURE analysis and vizualization of investigated datasets
 
 ### 7) Comparative frequency analysis to identify Alleles unique to the population
-
 
 <img src="https://genomes.uzhnu.edu.ua/wp-content/uploads/2021/08/cropped-Logos-1.png" height="200"> <img src="https://genomes.uzhnu.edu.ua/wp-content/uploads/2021/08/VASILE-LOGO.png"  height="200"> <img src="https://genomes.uzhnu.edu.ua/wp-content/uploads/2021/08/UzNU_logo_new2.png"  height="200">
 

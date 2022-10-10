@@ -1,7 +1,5 @@
-## Identification of novel, previously non reported alleles utilizing version 3 of The Genome Aggregation Database (GnomAD - https://gnomad.broadinstitute.org/)
-Downloads all data from The Genome Aggregation Database. 
-Performs per-chromosome comparison and reports a vcf file with alleles not present in GnomAD.
-modify run.sh for parallel customization
+## ADMIXTURE Principal Component Analysis and vizualization of selected populations
+
 ### To use - run:
 1) Move vcf.gz formatted population into input directory
 bash run.sh <filename of vcg.gz in input folder>
