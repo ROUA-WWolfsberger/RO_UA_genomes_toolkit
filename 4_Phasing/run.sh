@@ -1,0 +1,1 @@
+bash shapeit_comm

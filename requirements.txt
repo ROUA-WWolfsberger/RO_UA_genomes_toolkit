@@ -1,0 +1,13 @@
+curl=7.61.1
+libcurl=7.61.1
+OpenSSL=1.1.1k
+zlib=1.2.11
+brotli=1.0.6
+libidn2=2.2.0
+libpsl=0.20.2
+libidn2=2.2.0
+libssh=0.9.6
+nghttp2=1.33.0
+parallel=20210622
+snpEff=4.2
+shapeit=4.1

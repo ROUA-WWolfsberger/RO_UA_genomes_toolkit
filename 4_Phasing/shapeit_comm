@@ -1,0 +1,25 @@
+shapeit4 -I $1 -R chr1 -M /input/chr1.b38.gmap.gz -O results/chr_1.phased_$1.vcf.gz --sequencing -T 32 --log phasing_1.log
+shapeit4 -I $1 -R chr2 -M /input/chr2.b38.gmap.gz -O results/chr_2.phased_$1.vcf.gz --sequencing -T 32 --log phasing_2.log
+shapeit4 -I $1 -R chr3 -M /input/chr3.b38.gmap.gz -O results/chr_3.phased_$1.vcf.gz --sequencing -T 32 --log phasing_3.log
+shapeit4 -I $1 -R chr4 -M /input/chr4.b38.gmap.gz -O results/chr_4.phased_$1.vcf.gz --sequencing -T 32 --log phasing_4.log
+shapeit4 -I $1 -R chr5 -M /input/chr5.b38.gmap.gz -O results/chr_5.phased_$1.vcf.gz --sequencing -T 32 --log phasing_5.log
+shapeit4 -I $1 -R chr6 -M /input/chr6.b38.gmap.gz -O results/chr_6.phased_$1.vcf.gz --sequencing -T 32 --log phasing_6.log
+shapeit4 -I $1 -R chr7 -M /input/chr7.b38.gmap.gz -O results/chr_7.phased_$1.vcf.gz --sequencing -T 32 --log phasing_7.log
+shapeit4 -I $1 -R chr8 -M /input/chr8.b38.gmap.gz -O results/chr_8.phased_$1.vcf.gz --sequencing -T 32 --log phasing_8.log
+shapeit4 -I $1 -R chr9 -M /input/chr9.b38.gmap.gz -O results/chr_9.phased_$1.vcf.gz --sequencing -T 32 --log phasing_9.log
+shapeit4 -I $1 -R chr10 -M /input/chr10.b38.gmap.gz -O results/chr_10.phased_$1.vcf.gz --sequencing -T 32 --log phasing_10.log
+shapeit4 -I $1 -R chr11 -M /input/chr11.b38.gmap.gz -O results/chr_11.phased_$1.vcf.gz --sequencing -T 32 --log phasing_11.log
+shapeit4 -I $1 -R chr12 -M /input/chr12.b38.gmap.gz -O results/chr_12.phased_$1.vcf.gz --sequencing -T 32 --log phasing_12.log
+shapeit4 -I $1 -R chr13 -M /input/chr13.b38.gmap.gz -O results/chr_13.phased_$1.vcf.gz --sequencing -T 32 --log phasing_13.log
+shapeit4 -I $1 -R chr14 -M /input/chr14.b38.gmap.gz -O results/chr_14.phased_$1.vcf.gz --sequencing -T 32 --log phasing_14.log
+shapeit4 -I $1 -R chr15 -M /input/chr15.b38.gmap.gz -O results/chr_15.phased_$1.vcf.gz --sequencing -T 32 --log phasing_15.log
+shapeit4 -I $1 -R chr16 -M /input/chr16.b38.gmap.gz -O results/chr_16.phased_$1.vcf.gz --sequencing -T 32 --log phasing_16.log
+shapeit4 -I $1 -R chr17 -M /input/chr17.b38.gmap.gz -O results/chr_17.phased_$1.vcf.gz --sequencing -T 32 --log phasing_17.log
+shapeit4 -I $1 -R chr18 -M /input/chr18.b38.gmap.gz -O results/chr_18.phased_$1.vcf.gz --sequencing -T 32 --log phasing_18.log
+shapeit4 -I $1 -R chr19 -M /input/chr19.b38.gmap.gz -O results/chr_19.phased_$1.vcf.gz --sequencing -T 32 --log phasing_19.log
+shapeit4 -I $1 -R chr20 -M /input/chr20.b38.gmap.gz -O results/chr_20.phased_$1.vcf.gz --sequencing -T 32 --log phasing_20.log
+shapeit4 -I $1 -R chr21 -M /input/chr21.b38.gmap.gz -O results/chr_21.phased_$1.vcf.gz --sequencing -T 32 --log phasing_21.log
+shapeit4 -I $1 -R chr22 -M /input/chr22.b38.gmap.gz -O results/chr_22.phased_$1.vcf.gz --sequencing -T 32 --log phasing_22.log
+shapeit4 -I $1 -R chrX -M /input/chrX.b38.gmap.gz -O results/chr_X.phased_$1.vcf.gz --sequencing -T 32 --log  phasing_X.log
+
+bcftools concat /results/chr_1.phased$1 /results/chr_2.phased$1 /results/chr_3.phased$1 /results/chr_4.phased$1 /results/chr_5.phased$1 /results/chr_6.phased$1 /results/chr_7.phased$1 /results/chr_8.phased$1 /results/chr_9.phased$1 /results/chr_10.phased$1 /results/chr_11.phased$1 /results/chr_12.phased$1 /results/chr_13.phased$1 /results/chr_14.phased$1 /results/chr_15.phased$1 /results/chr_16.phased$1 /results/chr_17.phased$1 /results/chr_18.phased$1 /results/chr_19.phased$1 /results/chr_20.phased$1 /results/chr_21.phased$1 /results/chr_22.phased$1 /results/chr_X.phased$1 -Oz -o /results/chr_ALL.phased$1 --threads 32
